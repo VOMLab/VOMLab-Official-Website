@@ -7,9 +7,9 @@ const Contact = () => {
         <Navigation />
         <section className="flex-1 mt-10 pr-5 pl-5 grid grid-template-rows" style={{gridTemplateRows: '30% 20% 40%'}}>
             <div className="grid-row-1 text-xl font-light flex flex-col justify-end">
-                <p>브이오엠랩(VOMLAB)의 작업은</p>
-                <p>공통으로 <strong className='font-bold'>'공간'</strong>에 기반하여</p>
-                <p>관객의 경험을 끌어가는 <strong className='font-bold'>'시간'</strong>을 다룹니다.</p>
+                <p>브이오엠랩&lpar;VOMLAB&rpar;의 작업은</p>
+                <p>공통으로 <strong className='font-bold'>&apos;공간&apos;</strong>에 기반하여</p>
+                <p>관객의 경험을 끌어가는 <strong className='font-bold'>&apos;시간&apos;</strong>을 다룹니다.</p>
                 <p>우리는 <strong className='font-bold'>예술적 상상력과 기술의 조화를 통해</strong></p>
                 <p><strong className='font-bold'>공간의 새로운 가치</strong>를 찾아 나가고,</p>
                 <p>더 많은 관객과 만나기 위한 시도를 이어갑니다.</p>

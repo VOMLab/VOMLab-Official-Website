@@ -3,7 +3,7 @@
 import { Project } from "@/lib/utils/projects";
 import { useState } from "react";
 
-const EachProject = ({id, name, description, image, date}: Project) => {
+const EachProject = ({name, description, date}: Project) => {
     const [isOpen, setIsOpen] = useState(false);
 
     return <section className="w-full">
