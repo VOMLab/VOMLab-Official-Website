@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="min-h-screen flex flex-col">
       <Header/>
-      <nav className="flex-1 flex flex-col font-semibold text-3xl">
+      <nav className="flex-1 flex flex-col text-3xl">
         <section className="flex-1"></section>
         <section className="flex-1 grid grid-rows-3 m-3">
           <div>

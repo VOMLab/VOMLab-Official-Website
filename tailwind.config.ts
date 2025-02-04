@@ -14,6 +14,9 @@ export default {
         overlay: "var(--overlay)",
         accent: "var(--accent)",
       },
+      fontSize: {
+        'mobile-title' : '100px'
+      }
     },
   },
   plugins: [],
