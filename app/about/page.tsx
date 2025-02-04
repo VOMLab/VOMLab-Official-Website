@@ -11,7 +11,7 @@ const About = () => {
                 <div className='flex justify-center'>
                     <div className='flex gap-4 text-2xl'>
                         <h1>VOID-MULTIMEDIA</h1>
-                        <h1>VOMLAB</h1>
+                        <h1>VOMLab</h1>
                     </div>
                 </div>
                 <div className='flex items-center flex-col'>
