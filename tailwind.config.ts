@@ -15,7 +15,7 @@ export default {
         accent: "var(--accent)",
       },
       fontSize: {
-        'mobile-title' : '100px'
+        'mobile-title' : '90px'
       }
     },
   },

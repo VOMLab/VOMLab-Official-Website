@@ -2,11 +2,11 @@ import Header from "../components/Header";
 import Navigation from "../components/Navigation";
 
 const Contact = () => {
-  return <main className="flex flex-col h-screen">
+  return <main className="flex flex-col min-h-screen">
         <Header />
         <Navigation />
-        <section className="flex-1 mt-10 pr-5 pl-5 grid grid-template-rows" style={{gridTemplateRows: '30% 20% 40%'}}>
-            <div className="grid-row-1 text-xl font-light flex flex-col justify-end">
+        <section className="flex-1 mt-24 pr-5 pl-5 grid grid-template-rows" style={{gridTemplateRows: '30% 20% 40%'}}>
+            <div className="grid-row-1 text-lg font-light flex flex-col justify-end">
                 <p>브이오엠랩&#40;VOMLAB&#41;의 작업은</p>
                 <p>공통으로 <strong className='font-bold'>&apos;공간&apos;</strong>에 기반하여</p>
                 <p>관객의 경험을 끌어가는 <strong className='font-bold'>&apos;시간&apos;</strong>을 다룹니다.</p>
