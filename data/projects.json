@@ -1,17 +1,31 @@
 [
     {
         "id": 1,
-        "name": "PROJECT NAME",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "image": "PROJECT IMAGE",
-        "date": "PROJECT DATE"
+        "name": "대한민국역사박물관 한-이탈리아 수교 140주년 특별전 '모든 길은 역사로 통한다, 이탈리아 그리고 한국'",
+        "description": "‘바다로 이어진 우리’ 반도국가인 한국과 이탈리아의 지리적 공통점에서 착안하여 각 국의 아름다운 경관을 파노라마 뷰로 재구성, 한 폭의 그림처럼 그려내었다. 바다로 대칭을 이루는 한국과 이탈리아의 명소들은 같은 듯 다른 두 나라가 서로 맞닿아 있음을 보여준다.",
+        "details": {
+            "projectYear": "2024",
+            "client": "대한민국역사박물관",
+            "place": "대한민국역사박물관 3층 주제관",
+            "Category" : "전시, 인터랙티브 프로젝션 맵핑",
+            "Work": "영상 기획 및 연출, 제작, 인터랙션 기술개발, 미디어서버 구축"
+        },
+        "image": ["PROJECT IMAGE 1", "PROJECT IMAGE 2", "PROJECT IMAGE 3", "PROJECT IMAGE 4", "PROJECT IMAGE 5", "PROJECT IMAGE 6", "PROJECT IMAGE 7", "PROJECT IMAGE 8", "PROJECT IMAGE 9", "PROJECT IMAGE 10", "PROJECT IMAGE 11", "PROJECT IMAGE 12", "PROJECT IMAGE 13", "PROJECT IMAGE 14", "PROJECT IMAGE 15", "PROJECT IMAGE 16", "PROJECT IMAGE 17", "PROJECT IMAGE 18", "PROJECT IMAGE 19", "PROJECT IMAGE 20"],
+        "date": "2024.02"
     },
     {
         "id": 2,
-        "name": "PROJECT NAME",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "image": "PROJECT IMAGE",
-        "date": "PROJECT DATE"
+        "name": "청계천박물관 국립생태원 연계 기획전 ‘우리를 지켜주세요’",
+        "description": "‘청계천을 산책해요’ 청계천의 시작점인 청계광장부터 하류의 신답철교까지, 길게 이어진 청계천의 생태와 구간별 특징을 인터랙티브 콘텐츠로 제작하였다. 캐릭터와 함께 청계천을 산책하며 터치 인터랙션으로 자연물과 만나게끔 하는 콘텐츠는 관람객에게 주변의 자연을 더욱 친밀하게 느끼게끔 한다.",
+        "image": ["PROJECT IMAGE 1", "PROJECT IMAGE 2", "PROJECT IMAGE 3", "PROJECT IMAGE 4", "PROJECT IMAGE 5", "PROJECT IMAGE 6", "PROJECT IMAGE 7", "PROJECT IMAGE 8", "PROJECT IMAGE 9", "PROJECT IMAGE 10", "PROJECT IMAGE 11", "PROJECT IMAGE 12", "PROJECT IMAGE 13", "PROJECT IMAGE 14", "PROJECT IMAGE 15", "PROJECT IMAGE 16", "PROJECT IMAGE 17", "PROJECT IMAGE 18", "PROJECT IMAGE 19", "PROJECT IMAGE 20"],
+        "details": {
+            "projectYear": "2024",
+            "client": "서울역사박물관, 청계천박물관",
+            "place": "청계천박물관 기획전시실",
+            "Category" : "전시, 인터랙티브 프로젝션 맵핑",
+            "Work": "영상 기획 및 연출, 제작, 인터랙션 기술개발"
+        },
+        "date": "2024.04"
     },
     {
         "id": 3,

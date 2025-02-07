@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="ko" className="bg-overlay">
       <body
-        className={`${notoSansKR.className} antialiased sm:hidden`}
+        className={`${notoSansKR.className} antialiased`}
       >
         {children}
       </body>
