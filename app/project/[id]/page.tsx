@@ -9,7 +9,7 @@ type Props = {
 }
 
 const ProjectPage = async ({params}: Props) => {
-    const {id} = await params;
+    const {id} = params;
     const project = await getProjectById(Number(id));
 
     return <main className="flex flex-col min-h-screen">
