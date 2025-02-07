@@ -1,14 +1,25 @@
+import { Metadata } from 'next';
 import Header from "../../components/Header";
 import Navigation from "../../components/Navigation";
 import { getProjectById } from "../../../lib/utils/projects";
 
 type Props = {
-    params: {
-        id: string
+    params: { id: string }
+    searchParams: Record<string, string | string[] | undefined>
+}
+
+export async function generateMetadata({ 
+    params 
+}: { 
+    params: { id: string }
+}): Promise<Metadata> {
+    return {
+        title: `Project ${params.id}`
     }
 }
 
-const ProjectPage = async ({params}: Props) => {
+
+export default async function ProjectPage({params}: Props, searchParams: Record<string, string | string[] | undefined>) {
     const {id} = params;
     const project = await getProjectById(Number(id));
 
@@ -69,5 +80,3 @@ const ProjectPage = async ({params}: Props) => {
         </section>
     </main>
 }
-
-export default ProjectPage;
