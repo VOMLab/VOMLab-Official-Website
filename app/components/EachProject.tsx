@@ -1,10 +1,10 @@
 "use client"
 
-import { Project } from "@/lib/utils/projects";
+import { ProjectProps } from "@/lib/utils/projects";
 import { useState } from "react";
 import Link from "next/link";
 
-const EachProject = ({name, description, date, id}: Project) => {
+const EachProject = ({name, description, date, id}: ProjectProps) => {
     const [isOpen, setIsOpen] = useState(false);
 
     return <section className="w-full">
@@ -12,9 +12,9 @@ const EachProject = ({name, description, date, id}: Project) => {
         </div>
         {/* Desktop */}
         <div className={`hidden sm:flex sm:h-20 sm:flex-col`}>
-            <div className={`h-full flex flex-col justify-center`}>
-                <Link href={`/project/${id}`} className='text-md cursor-pointer transition-colors'>{name}</Link>
-                <p className='text-md'>{date}</p>
+            <div className={`h-full flex flex-col`}>
+                <Link href={`/project/${id}`} className='text-md cursor-pointer transition-colors mt-3'>{name}</Link>
+                <p className='text-md mt-3'>{date}</p>
             </div>
         </div>
 

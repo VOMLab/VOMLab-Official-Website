@@ -11,7 +11,8 @@
             "Work": "영상 기획 및 연출, 제작, 인터랙션 기술개발, 미디어서버 구축"
         },
         "image": ["PROJECT IMAGE 1", "PROJECT IMAGE 2", "PROJECT IMAGE 3", "PROJECT IMAGE 4", "PROJECT IMAGE 5", "PROJECT IMAGE 6", "PROJECT IMAGE 7", "PROJECT IMAGE 8", "PROJECT IMAGE 9", "PROJECT IMAGE 10", "PROJECT IMAGE 11", "PROJECT IMAGE 12", "PROJECT IMAGE 13", "PROJECT IMAGE 14", "PROJECT IMAGE 15", "PROJECT IMAGE 16", "PROJECT IMAGE 17", "PROJECT IMAGE 18", "PROJECT IMAGE 19", "PROJECT IMAGE 20"],
-        "date": "2024.02"
+        "date": "2024.02",
+        "categoryNavigation": "전시"
     },
     {
         "id": 2,
@@ -25,76 +26,52 @@
             "Category" : "전시, 인터랙티브 프로젝션 맵핑",
             "Work": "영상 기획 및 연출, 제작, 인터랙션 기술개발"
         },
-        "date": "2024.04"
+        "date": "2024.04",
+        "categoryNavigation": "다이닝"
     },
     {
         "id": 3,
-        "name": "PROJECT NAME",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "image": "PROJECT IMAGE",
-        "date": "PROJECT DATE"
+        "name": "국립고궁박물관 특별전 ‘국가유산을 지킨 사람들’",
+        "description": "씨앗을 열심히 돌보아 새싹으로, 나무로 키워 끝내 열매를 맺어내듯, 과거로부터의 유산을 지키고 기록하며 미래로 전해주는 사람들의 이야기를 하나의 그림으로 연결하여 그려내었다. 프롤로그 영상부터 인터랙티브 콘텐츠 모두 현재의 우리가 국가유산을 통하여 과거 그리고 미래와 연결되어 있음을 보여준다.",
+        "details": {
+            "projectYear": "2024",
+            "client": "국립고궁박물관",
+            "place": "국립고궁박물관 1층 기획전시실IV",
+            "Category" : "전시, 인터랙티브 프로젝션 맵핑",
+            "Work": "영상 기획 및 연출, 제작, 촬영 및 편집, 인터랙션 기술개발"
+        },
+        "image": ["PROJECT IMAGE 1", "PROJECT IMAGE 2", "PROJECT IMAGE 3", "PROJECT IMAGE 4", "PROJECT IMAGE 5", "PROJECT IMAGE 6", "PROJECT IMAGE 7", "PROJECT IMAGE 8", "PROJECT IMAGE 9", "PROJECT IMAGE 10", "PROJECT IMAGE 11", "PROJECT IMAGE 12", "PROJECT IMAGE 13", "PROJECT IMAGE 14", "PROJECT IMAGE 15", "PROJECT IMAGE 16", "PROJECT IMAGE 17", "PROJECT IMAGE 18", "PROJECT IMAGE 19", "PROJECT IMAGE 20"],
+        "date": "2024.05",
+        "categoryNavigation": "전시"
     },
     {
         "id": 4,
-        "name": "PROJECT NAME",
+        "name": "국립민속박물관 특별전 ‘요즘 커피’",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "image": "PROJECT IMAGE",
-        "date": "PROJECT DATE"
+        "details": {
+            "projectYear": "2024",
+            "client": "국립민속박물관",
+            "place": "국립민속박물관 본관 기획전시실2",
+            "Category" : "전시, 프로젝션 맵핑",
+            "Work": "영상 기획 및 연출, 제작, 촬영 및 편집, 인터랙션 기술 개발, UXUI"
+        },
+        "image": ["PROJECT IMAGE 1", "PROJECT IMAGE 2", "PROJECT IMAGE 3", "PROJECT IMAGE 4", "PROJECT IMAGE 5", "PROJECT IMAGE 6", "PROJECT IMAGE 7", "PROJECT IMAGE 8", "PROJECT IMAGE 9", "PROJECT IMAGE 10", "PROJECT IMAGE 11", "PROJECT IMAGE 12", "PROJECT IMAGE 13", "PROJECT IMAGE 14", "PROJECT IMAGE 15", "PROJECT IMAGE 16", "PROJECT IMAGE 17", "PROJECT IMAGE 18", "PROJECT IMAGE 19", "PROJECT IMAGE 20"],
+        "date": "2024.08",
+        "categoryNavigation": "박물관"
     },
     {
         "id": 5,
-        "name": "PROJECT NAME",
-        "description": "PROJECT DESCRIPTION",
-        "image": "PROJECT IMAGE",
-        "date": "PROJECT DATE"
-    },
-    {
-        "id": 6,
-        "name": "PROJECT NAME",
-        "description": "PROJECT DESCRIPTION",
-        "image": "PROJECT IMAGE",
-        "date": "PROJECT DATE"
-    },
-    {
-        "id": 7,
-        "name": "PROJECT NAME",
-        "description": "PROJECT DESCRIPTION",
-        "image": "PROJECT IMAGE",
-        "date": "PROJECT DATE"
-    },
-    {
-        "id": 8,
-        "name": "PROJECT NAME",
-        "description": "PROJECT DESCRIPTION",
-        "image": "PROJECT IMAGE",
-        "date": "PROJECT DATE"
-    },
-    {
-        "id": 9,
-        "name": "PROJECT NAME",
-        "description": "PROJECT DESCRIPTION",
-        "image": "PROJECT IMAGE",
-        "date": "PROJECT DATE"
-    },
-    {
-        "id": 10,
-        "name": "PROJECT NAME",
-        "description": "PROJECT DESCRIPTION",
-        "image": "PROJECT IMAGE",
-        "date": "PROJECT DATE"
-    },
-    {
-        "id": 11,
-        "name": "PROJECT NAME",
-        "description": "PROJECT DESCRIPTION",
-        "image": "PROJECT IMAGE",
-        "date": "PROJECT DATE"
-    },
-    {
-        "id": 12,
-        "name": "PROJECT NAME",
-        "description": "PROJECT DESCRIPTION",
-        "image": "PROJECT IMAGE",
-        "date": "PROJECT DATE"
+        "name": "간송미술문화재단 미디어아트전 ‘구름이 걷히니 달이 비치고 바람 부니 별이 빛난다’",
+        "description": "간송미술관 최초의 미디어아트 전시. 전통 미술을 활용한 이머시브 & 미디어아트 전시로 간송 전형필 컬렉션 IP의 가치와 의미를 오감으로 느낄수 있게 한다. 신윤복의 혜원전신첩, 정선의 해악전신첩과 관동명승첩을 재구성하여 관람객에게 서정적인 옛 정취의 여정을 제공하였다.",
+        "details": {
+            "projectYear": "2024",
+            "client": "간송미술문화재단, 간송랩",
+            "place": "DDP 디자인뮤지엄 2층 전시2관",
+            "Category" : "전시, 인터랙티브 프로젝션 맵핑",
+            "Work": "영상 기획 및 연출, 제작, 촬영 및 편집, 인터랙션 기술 개발, UXUI"
+        },
+        "image": ["PROJECT IMAGE 1", "PROJECT IMAGE 2", "PROJECT IMAGE 3", "PROJECT IMAGE 4", "PROJECT IMAGE 5", "PROJECT IMAGE 6", "PROJECT IMAGE 7", "PROJECT IMAGE 8", "PROJECT IMAGE 9", "PROJECT IMAGE 10", "PROJECT IMAGE 11", "PROJECT IMAGE 12", "PROJECT IMAGE 13", "PROJECT IMAGE 14", "PROJECT IMAGE 15", "PROJECT IMAGE 16", "PROJECT IMAGE 17", "PROJECT IMAGE 18", "PROJECT IMAGE 19", "PROJECT IMAGE 20"],
+        "date": "2024.08",
+        "categoryNavigation": "미술관"
     }
 ]

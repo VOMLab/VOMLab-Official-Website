@@ -1,11 +1,19 @@
 import projects from "@/data/projects.json";
 
-export interface Project {
+export interface ProjectProps {
     id: number;
     name: string;
     description: string;
     image: string[];
     date: string;
+    categoryNavigation: string;
+    details: {
+        projectYear: string;
+        client: string;
+        place: string;
+        Category: string;
+        Work: string;
+    }
 }
 
 export const getProjects = async () => {
