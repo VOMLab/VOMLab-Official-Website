@@ -11,7 +11,7 @@ const Header = () => {
       sm:flex sm:justify-start ${pathname === "/" ? 'sm:w-full' : 'sm:w-min'} 
 
       // Mobile
-      flex justify-end w-full
+      flex justify-end w-full text-white
       `}
     >
       <Link href="/">

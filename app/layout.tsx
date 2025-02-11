@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ko" className="bg-overlay">
+    <html lang="ko">
       <body
         className={`${notoSansKR.className} antialiased`}
       >

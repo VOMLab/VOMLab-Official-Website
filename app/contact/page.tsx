@@ -2,12 +2,12 @@ import Header from "../components/Header";
 import Navigation from "../components/Navigation";
 
 const Contact = () => {
-  return <main className="flex flex-col h-screen">
+  return <main className="flex flex-col h-screen bg-[url('/images/img_contact.webp')] bg-cover bg-center bg-no-repeat opacity-90">
         <div className="sm:flex sm:items-center">
             <Header />
             <Navigation />
         </div>
-        <section className="hidden sm:flex sm:justify-between sm:h-full sm:text-xl sm:font-light sm:ml-24 sm:mr-24">
+        <section className="hidden sm:flex sm:justify-between sm:h-full sm:text-xl sm:font-light sm:ml-24 sm:mr-24 sm:text-white">
             <div className="grid grid-row-3">
                 <div></div>
                 <div className="flex flex-col gap-5">
@@ -28,7 +28,7 @@ const Contact = () => {
                 </div>
                 <div className='flex flex-col gap-3'>
                     <p className='font-bold mb-10'>CONTACT.</p>
-                    <p>02-6506-0318</p>
+                    <p>02-6405-0318</p>
                     <p>INFO@VOMLAB.COM</p>
                 </div>
                 <div className='flex flex-col gap-3'>
@@ -37,7 +37,7 @@ const Contact = () => {
                 </div>
             </div>
         </section>
-        <section className="flex-1 mt-24 pr-5 pl-5 grid grid-template-rows sm:hidden" style={{gridTemplateRows: '30% 20% 40%'}}>
+        <section className="flex-1 mt-24 pr-5 pl-5 grid grid-template-rows text-white sm:hidden" style={{gridTemplateRows: '30% 20% 40%'}}>
             <div className="grid-row-1 text-lg font-light flex flex-col justify-end">
                 <p>브이오엠랩&#40;VOMLAB&#41;의 작업은</p>
                 <p>공통으로 <strong className='font-bold'>&apos;공간&apos;</strong>에 기반하여</p>
@@ -60,7 +60,7 @@ const Contact = () => {
                 <div>
                     <p className='mb-3'><strong>CONTACT.</strong></p>
                     <div className='font-light'>
-                        <p>02-6506-0318</p>
+                        <p>02-6405-0318</p>
                         <p>INFO@VOMLAB.COM</p>
                     </div>
                 </div>

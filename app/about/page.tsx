@@ -3,7 +3,7 @@ import Navigation from "../components/Navigation";
 
 const About = () => {
   return <>
-    <main className="flex flex-col h-screen">
+    <main className="flex flex-col h-screen bg-[url('/images/img_about.webp')] bg-cover bg-center bg-no-repeat opacity-90">
         <div className="sm:flex sm:items-center">
             <Header />
             <Navigation />
