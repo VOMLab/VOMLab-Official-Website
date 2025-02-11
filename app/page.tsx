@@ -8,8 +8,8 @@ export default function Home() {
 
   return (
     <main className="min-h-screen flex flex-col">
-      <div className='absolute inset-0 bg-black transition-opacity duration-700 -z-10' style={{opacity: isLoading ? 'opacity-100' : 'opacity-0'}}>
-        <video autoPlay muted loop playsInline onLoadedData={() => setIsLoading(false)} className={`absolute inset-0 w-full h-full object-cover scale-[1.1] transition-opacity duration-700 -z-10 ${isLoading ? 'opacity-0' : 'opacity-100'}`}>
+      <div className='absolute inset-0 bg-black transition-opacity duration-700 -z-10 scale-[1.1215]' style={{opacity: isLoading ? 'opacity-100' : 'opacity-0'}}>
+        <video autoPlay muted loop playsInline onLoadedData={() => setIsLoading(false)} className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 -z-10 ${isLoading ? 'opacity-0' : 'opacity-100'}`}>
           <source src="/videos/video_main.webm" type="video/webm" />
         </video>
       </div>

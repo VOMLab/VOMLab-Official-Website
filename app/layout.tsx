@@ -22,6 +22,7 @@ export default function RootLayout({
       <body
         className={`${notoSansKR.className} antialiased`}
       >
+        <div className="fixed inset-0 bg-overlay -z-20"></div>
         {children}
       </body>
     </html>
