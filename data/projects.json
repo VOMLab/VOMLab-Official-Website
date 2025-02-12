@@ -10,15 +10,16 @@
             "Category" : "전시, 인터랙티브 프로젝션 맵핑",
             "Work": "영상 기획 및 연출, 제작, 인터랙션 기술개발, 미디어서버 구축"
         },
-        "image": ["PROJECT IMAGE 1", "PROJECT IMAGE 2", "PROJECT IMAGE 3", "PROJECT IMAGE 4", "PROJECT IMAGE 5", "PROJECT IMAGE 6", "PROJECT IMAGE 7", "PROJECT IMAGE 8", "PROJECT IMAGE 9", "PROJECT IMAGE 10", "PROJECT IMAGE 11", "PROJECT IMAGE 12", "PROJECT IMAGE 13", "PROJECT IMAGE 14", "PROJECT IMAGE 15", "PROJECT IMAGE 16", "PROJECT IMAGE 17", "PROJECT IMAGE 18", "PROJECT IMAGE 19", "PROJECT IMAGE 20"],
+        "image": "/images/projects/2024/대한역박/",
         "date": "2024.02",
-        "categoryNavigation": "전시"
+        "categoryNavigation": "전시, 박물관",
+        "mainVideoLink": "https://www.youtube.com/embed/pdZAHatom6Q?autoplay=1&mute=1"
     },
     {
         "id": 2,
         "name": "청계천박물관 국립생태원 연계 기획전 ‘우리를 지켜주세요’",
         "description": "‘청계천을 산책해요’ 청계천의 시작점인 청계광장부터 하류의 신답철교까지, 길게 이어진 청계천의 생태와 구간별 특징을 인터랙티브 콘텐츠로 제작하였다. 캐릭터와 함께 청계천을 산책하며 터치 인터랙션으로 자연물과 만나게끔 하는 콘텐츠는 관람객에게 주변의 자연을 더욱 친밀하게 느끼게끔 한다.",
-        "image": ["PROJECT IMAGE 1", "PROJECT IMAGE 2", "PROJECT IMAGE 3", "PROJECT IMAGE 4", "PROJECT IMAGE 5", "PROJECT IMAGE 6", "PROJECT IMAGE 7", "PROJECT IMAGE 8", "PROJECT IMAGE 9", "PROJECT IMAGE 10", "PROJECT IMAGE 11", "PROJECT IMAGE 12", "PROJECT IMAGE 13", "PROJECT IMAGE 14", "PROJECT IMAGE 15", "PROJECT IMAGE 16", "PROJECT IMAGE 17", "PROJECT IMAGE 18", "PROJECT IMAGE 19", "PROJECT IMAGE 20"],
+        "image": "/images/projects/2024/청계박/",
         "details": {
             "projectYear": "2024",
             "client": "서울역사박물관, 청계천박물관",
@@ -27,7 +28,8 @@
             "Work": "영상 기획 및 연출, 제작, 인터랙션 기술개발"
         },
         "date": "2024.04",
-        "categoryNavigation": "다이닝"
+        "categoryNavigation": "전시, 박물관",
+        "mainVideoLink": "https://www.youtube.com/embed/iB0XK3EOLCw?autoplay=1&mute=1" 
     },
     {
         "id": 3,
@@ -40,9 +42,10 @@
             "Category" : "전시, 인터랙티브 프로젝션 맵핑",
             "Work": "영상 기획 및 연출, 제작, 촬영 및 편집, 인터랙션 기술개발"
         },
-        "image": ["PROJECT IMAGE 1", "PROJECT IMAGE 2", "PROJECT IMAGE 3", "PROJECT IMAGE 4", "PROJECT IMAGE 5", "PROJECT IMAGE 6", "PROJECT IMAGE 7", "PROJECT IMAGE 8", "PROJECT IMAGE 9", "PROJECT IMAGE 10", "PROJECT IMAGE 11", "PROJECT IMAGE 12", "PROJECT IMAGE 13", "PROJECT IMAGE 14", "PROJECT IMAGE 15", "PROJECT IMAGE 16", "PROJECT IMAGE 17", "PROJECT IMAGE 18", "PROJECT IMAGE 19", "PROJECT IMAGE 20"],
+        "image": "/images/projects/2024/고궁박/",
         "date": "2024.05",
-        "categoryNavigation": "전시"
+        "categoryNavigation": "전시, 박물관",
+        "mainVideoLink": "https://www.youtube.com/embed/KhLsKFKtySA?autoplay=1&mute=1" 
     },
     {
         "id": 4,
@@ -55,9 +58,10 @@
             "Category" : "전시, 프로젝션 맵핑",
             "Work": "영상 기획 및 연출, 제작, 촬영 및 편집, 인터랙션 기술 개발, UXUI"
         },
-        "image": ["PROJECT IMAGE 1", "PROJECT IMAGE 2", "PROJECT IMAGE 3", "PROJECT IMAGE 4", "PROJECT IMAGE 5", "PROJECT IMAGE 6", "PROJECT IMAGE 7", "PROJECT IMAGE 8", "PROJECT IMAGE 9", "PROJECT IMAGE 10", "PROJECT IMAGE 11", "PROJECT IMAGE 12", "PROJECT IMAGE 13", "PROJECT IMAGE 14", "PROJECT IMAGE 15", "PROJECT IMAGE 16", "PROJECT IMAGE 17", "PROJECT IMAGE 18", "PROJECT IMAGE 19", "PROJECT IMAGE 20"],
+        "image": "/images/projects/2024/요즘커피/",
         "date": "2024.08",
-        "categoryNavigation": "박물관"
+        "categoryNavigation": "전시, 박물관",
+        "mainVideoLink": "https://www.youtube.com/embed/_zO0eNZMM1Q?autoplay=1&mute=1" 
     },
     {
         "id": 5,
@@ -70,8 +74,57 @@
             "Category" : "전시, 인터랙티브 프로젝션 맵핑",
             "Work": "영상 기획 및 연출, 제작, 촬영 및 편집, 인터랙션 기술 개발, UXUI"
         },
-        "image": ["PROJECT IMAGE 1", "PROJECT IMAGE 2", "PROJECT IMAGE 3", "PROJECT IMAGE 4", "PROJECT IMAGE 5", "PROJECT IMAGE 6", "PROJECT IMAGE 7", "PROJECT IMAGE 8", "PROJECT IMAGE 9", "PROJECT IMAGE 10", "PROJECT IMAGE 11", "PROJECT IMAGE 12", "PROJECT IMAGE 13", "PROJECT IMAGE 14", "PROJECT IMAGE 15", "PROJECT IMAGE 16", "PROJECT IMAGE 17", "PROJECT IMAGE 18", "PROJECT IMAGE 19", "PROJECT IMAGE 20"],
+        "image": "/images/projects/2024/간송/",
         "date": "2024.08",
-        "categoryNavigation": "미술관"
+        "categoryNavigation": "전시, 미술관",
+        "mainVideoLink": "https://www.youtube.com/embed/ImLdgx33H5E?autoplay=1&mute=1" 
+    },
+        {
+        "id": 6,
+        "name": "노형수퍼마켙 시즌2",
+        "description": "'물건이 아닌 추억을 파는, 이상한 수퍼마켓' 누구에게나 친숙하고 일상적으로 느껴지는 공간인 수퍼마켓에 색다르고 환상적인 공간으로의 변화를 주었다. 노형수퍼마켙 시즌2는 '물건이 아닌 추억과 경험을 파는 곳’ 이라는 콘셉트를 통해 일상적 공간에서 비일상적 상상력을 펼칠 수 있는 공간으로 변모하였다. 관람객은 메인홀에서 일곱가지 실감형 미디어아트와 그에 맞게 구성된 인터랙션을 콘텐츠를 즐긴 후, 백스테이지에서 자연 콘셉트로 구성된 인터랙티브 아트를 체험할 수 있다.",
+         "details": {
+            "projectYear": "2021 - 2023",
+            "client": "노형수퍼마켙",
+            "place": "제주 노형수퍼마켙 메인홀, 백스테이지",
+            "Category" : "실감형 미디어아트, 인터랙티브 프로젝션 맵핑",
+            "Work": "콘텐츠 기획 및 제작, VFX, 인터랙션 기술개발, 미디어서버 구축"
+        },
+        "image": "",
+        "date": "2021 - 2023",
+        "categoryNavigation": "전시, 미술관",
+        "mainVideoLink": "https://www.youtube.com/embed/hv-rFqVJwSs?autoplay=1&mute=1"
+    },
+    {
+        "id": 7,
+        "name": "2023 공연예술 창작산실 - 올해의 신작 'Recall; 불러오기'",
+        "description": "'물건이 아닌 추억을 파는, 이상한 수퍼마켓' 누구에게나 친숙하고 일상적으로 느껴지는 공간인 수퍼마켓에 색다르고 환상적인 공간으로의 변화를 주었다. 노형수퍼마켙 시즌2는 '물건이 아닌 추억과 경험을 파는 곳’ 이라는 콘셉트를 통해 일상적 공간에서 비일상적 상상력을 펼칠 수 있는 공간으로 변모하였다. 관람객은 메인홀에서 일곱가지 실감형 미디어아트와 그에 맞게 구성된 인터랙션을 콘텐츠를 즐긴 후, 백스테이지에서 자연 콘셉트로 구성된 인터랙티브 아트를 체험할 수 있다.",
+         "details": {
+            "projectYear": "2023",
+            "client": "화이트큐브프로젝트",
+            "place": "대학로예술극장 대극장",
+            "Category" : "공연, 인터랙티브 프로젝션맵핑",
+            "Work": "영상 연출 및 디자인, 인터랙션 기술개발, 실시간제어 시스템 개발"
+        },
+        "image": "",
+        "date": "2023.01",
+        "categoryNavigation": "공연",
+        "mainVideoLink": ""
+    },
+    {
+        "id": 8,
+        "name": "한국문화유산협회 호남권역 예담고 상설전시",
+        "description": "한국문화유산협회 호남권역 예담고 상설전시",
+         "details": {
+            "projectYear": "2023",
+            "client": "국가유산청, 한국문화유산협회 유물보존관리사업단",
+            "place": "호남권역 예담고(전주 신리터널)",
+            "Category" : "전시, 프로젝션 맵핑",
+            "Work": "영상 기획 및 연출, 제작"
+        },
+        "image":"",
+        "date": "2023.02",
+        "categoryNavigation": "전시, 박물관",
+        "mainVideoLink": "https://www.youtube.com/embed/hkACAYRjfIc?autoplay=1&mute=1"
     }
 ]

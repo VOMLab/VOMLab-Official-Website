@@ -4,7 +4,7 @@ export interface ProjectProps {
     id: number;
     name: string;
     description: string;
-    image: string[];
+    image: string;
     date: string;
     categoryNavigation: string;
     details: {
@@ -14,6 +14,7 @@ export interface ProjectProps {
         Category: string;
         Work: string;
     }
+    mainVideoLink: string;
 }
 
 export const getProjects = async () => {

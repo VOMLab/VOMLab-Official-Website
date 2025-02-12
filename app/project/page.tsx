@@ -39,7 +39,7 @@ const Project = () => {
       flex-1 mt-10
     `}>
         {filteredProjects.map((project) => (
-            <EachProject key={project.id} {...project} image={Array.isArray(project.image) ? project.image : [project.image]} />
+            <EachProject key={project.id} {...project} />
         ))}
     </section>
   </main>
