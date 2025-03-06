@@ -4,7 +4,7 @@ import { ProjectProps } from "@/lib/utils/projects";
 import { useState, useRef } from "react";
 import Link from "next/link";
 
-const EachProject = ({name, description, id, thumbnailNames, videoUrl}: ProjectProps) => {
+const EachProject = ({description, id, thumbnailNames, videoUrl}: ProjectProps) => {
     const [isOpen, setIsOpen] = useState(false);
     const videoRef = useRef<HTMLVideoElement>(null);
 
@@ -14,8 +14,7 @@ const EachProject = ({name, description, id, thumbnailNames, videoUrl}: ProjectP
                 await videoRef.current.play();
             }
         } catch (error) {
-            // Ignore abort errors when play is interrupted
-            console.log("Video play interrupted");
+            console.log(error);
         }
     };
 
