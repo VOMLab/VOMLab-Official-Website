@@ -27,13 +27,12 @@ export default async function ProjectPage({
             {/* Project Header */}
             <div className='w-full h-64 bg-black flex flex-col justify-end items-end pb-3 pr-10'>
                 <h1 className='text-lg text-white'>{project?.name}</h1>
-                <h2 className='text-lg text-white'>{project?.date}</h2>
             </div>
         </div>
         <section className='grid grid-cols-3 gap-10 p-10'>
             {/* Project Content */}
-            <div className=' bg-black h-42 relative aspect-video'>
-                {project?.mainVideoLink && (
+            {project?.mainVideoLink && (
+                <div className=' bg-black h-42 relative aspect-video'>
                     <iframe
                     className="w-full h-full"
                     src={project?.mainVideoLink}
@@ -41,22 +40,22 @@ export default async function ProjectPage({
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
                 />
-                )}
             </div>
+            )}
             <p className='text-md text-white'>{project?.description}</p>
             <div className="text-white">
                 <div className='flex gap-2'>
-                    <p>Project Year</p>
+                    <p className='font-bold'>Project Year</p>
                     <p>|</p>
                     <p>{project?.details?.projectYear}</p>
                 </div>
                 <div className='flex gap-2'>
-                    <p>Client</p>
+                    <p className='font-bold'>Client</p>
                     <p>|</p>
                     <p>{project?.details?.client}</p>
                 </div>
                 <div className='flex gap-2'>
-                    <p>Place</p>
+                    <p className='font-bold'>Place</p>
                     <p>|</p>
                     <p>{project?.details?.place}</p>
                 </div>
