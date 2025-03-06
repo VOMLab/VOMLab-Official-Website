@@ -60,12 +60,12 @@ export default async function ProjectPage({
                     <p>{project?.details?.place}</p>
                 </div>
                 <div className='flex gap-2'>
-                    <p>Category</p>
+                    <p className='font-bold'>Category</p>
                     <p>|</p>
                     <p>{project?.details?.Category}</p>
                 </div>
                 <div className='flex gap-2'>
-                    <p>Work</p>
+                    <p className='font-bold'>Work</p>
                     <p>|</p>
                     <p>{project?.details?.Work}</p>
                 </div>
