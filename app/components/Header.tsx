@@ -17,7 +17,7 @@ const Header = () => {
       <Link href="/">
         <h1 className={`
         // Desktop
-        ${pathname === "/" ? 'sm:text-[18rem] sm:-mt-16' : 'sm:text-[2rem] sm:m-5'} 
+        ${pathname === "/" ? 'sm:text-[24rem] sm:-mt-16' : 'sm:text-[2rem] sm:m-5'} 
 
         // Mobile
         text-mobile-title leading-none -mt-3 font-extralight
