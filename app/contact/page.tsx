@@ -3,7 +3,7 @@ import Navigation from "../components/Navigation";
 
 const Contact = () => {
   return <main className="flex flex-col h-screen bg-[url('/images/img_contact.webp')] bg-cover bg-center bg-no-repeat opacity-90">
-        <div className="sm:flex sm:items-center">
+        <div className="sm:flex sm:items-center bg-overlay pb-5 sm:pb-0">
             <Header />
             <Navigation />
         </div>

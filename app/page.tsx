@@ -23,7 +23,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen flex flex-col">
-      <div className='absolute sm:h-[85%] inset-0 bg-black transition-opacity duration-700 -z-10 scale-[1.1215]' style={{opacity: isLoading ? 'opacity-100' : 'opacity-0'}}>
+      <div className='absolute w-full h-full inset-0 bg-black transition-opacity duration-700 -z-10' style={{opacity: isLoading ? 'opacity-100' : 'opacity-0'}}>
         <video 
           ref={videoRef}
           autoPlay 
@@ -54,10 +54,10 @@ export default function Home() {
         `}></section>
         <section className={`
           // Desktop
-          sm:flex sm:gap-32 sm:justify-start sm:items-end sm:w-full
+          sm:flex sm:gap-32 sm:justify-start sm:items-end sm:w-full sm:text-black
 
           // Mobile
-          flex-1 grid grid-rows-3 m-3
+          flex-1 grid grid-rows-3 m-3 text-white
           `}>
           <div>
             <Link href="/about">ABOUT</Link>

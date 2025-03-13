@@ -76,7 +76,7 @@ export default async function ProjectPage({
             {images.map((image, index) => {
                 const imagePath = encodeURI(`${project?.image}${image}`);
                 return (
-                    <div key={index} className='sm:h-48 relative'>
+                    <div key={index} className='sm:aspect-video relative'>
                         <Image
                         src={imagePath}
                         alt={`Project Image`}

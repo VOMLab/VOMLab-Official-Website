@@ -18,7 +18,8 @@
         "image": "/images/projects/2024/대한역박/",
         "date": "2024.02",
         "categoryNavigation": "전시, 박물관",
-        "mainVideoLink": "https://www.youtube.com/embed/pdZAHatom6Q?autoplay=1&mute=1"
+        "mainVideoLink": "https://www.youtube.com/embed/pdZAHatom6Q?autoplay=1&mute=1",
+        "videoUrl": "/videos/2024/2024-italy.webm"
     },
     {
         "id": 2,
@@ -39,7 +40,8 @@
         },
         "date": "2024.04",
         "categoryNavigation": "전시, 박물관",
-        "mainVideoLink": "https://www.youtube.com/embed/iB0XK3EOLCw?autoplay=1&mute=1" 
+        "mainVideoLink": "https://www.youtube.com/embed/iB0XK3EOLCw?autoplay=1&mute=1",
+        "videoUrl": "/videos/2024/2024-chunggyecheon.webm"
     },
     {
         "id": 3,
@@ -60,7 +62,7 @@
         "date": "2024.05",
         "categoryNavigation": "전시, 박물관",
         "mainVideoLink": "https://www.youtube.com/embed/KhLsKFKtySA?autoplay=1&mute=1",
-        "videoUrl": "/videos/2024/2024-Gogung.webm"
+        "videoUrl": "/videos/2024/2024-gogung.webm"
     },
     {
         "id": 4,
@@ -80,7 +82,8 @@
         "image": "/images/projects/2024/요즘커피/",
         "date": "2024.08",
         "categoryNavigation": "전시, 박물관",
-        "mainVideoLink": "https://www.youtube.com/embed/_zO0eNZMM1Q?autoplay=1&mute=1" 
+        "mainVideoLink": "https://www.youtube.com/embed/_zO0eNZMM1Q?autoplay=1&mute=1",
+        "videoUrl": "/videos/2024/2024-coffee.webm"
     },
     {
         "id": 5,
@@ -100,7 +103,8 @@
         "image": "/images/projects/2024/간송/",
         "date": "2024.08",
         "categoryNavigation": "전시, 미술관",
-        "mainVideoLink": "https://www.youtube.com/embed/ImLdgx33H5E?autoplay=1&mute=1" 
+        "mainVideoLink": "https://www.youtube.com/embed/ImLdgx33H5E?autoplay=1&mute=1",
+        "videoUrl": "/videos/2024/2024-gansong.webm"
     },
         {
         "id": 6,

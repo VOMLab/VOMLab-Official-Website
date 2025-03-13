@@ -4,27 +4,27 @@ import Navigation from "../components/Navigation";
 const About = () => {
   return <>
     <main className="flex flex-col h-screen bg-[url('/images/img_about.webp')] bg-cover bg-center bg-no-repeat opacity-90">
-        <div className="sm:flex sm:items-center">
+        <div className="bg-overlay pb-5 sm:pb-0 sm:flex sm:items-center sm:bg-overlay">
             <Header />
             <Navigation />
         </div>
         <section className="grid h-full" style={{gridTemplateRows: '40% 10% 40%'}}>
             <div className="grid-rows-1 w-full flex flex-col justify-end text-lg sm:gap-8">
                 <div className='flex justify-center'>
-                    <div className='flex gap-4 text-2xl sm:gap-12'>
+                    <div className='flex gap-4 text-2xl sm:gap-12 text-white'>
                         <h1>VOID-MULTIMEDIA</h1>
                         <h1>VOMLab</h1>
                     </div>
                 </div>
                 <div className='flex items-center flex-col'>
-                    <div className='flex gap-40 text-2xl sm:gap-48'>
+                    <div className='flex gap-40 text-2xl sm:gap-48 text-white'>
                         <h1>브이오엠랩</h1>
                         <h1>봄랩</h1>
                     </div>
                 </div>
             </div>
             <div className='grid-row-1'></div>
-            <section className='grid-cols-1 w-full'>
+            <section className='grid-cols-1 w-full text-white'>
                 <div>
                     {/* 데스크톱 버전 (2줄) */}
                     <div className="hidden sm:flex flex-col items-center text-2xl font-light gap-4">
