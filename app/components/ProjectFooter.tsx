@@ -10,7 +10,7 @@ interface ProjectFooterProps {
 const ProjectFooter = ({ currentPage, setCurrentPage, totalItems, itemsPerPage }: ProjectFooterProps) => {
     const totalPages = Math.ceil(totalItems / itemsPerPage);
     return (
-        <footer className="hidden sm:block w-full sm:mb-32">
+        <footer className="hidden sm:block w-full sm:mb-12">
             <div className="flex justify-center items-center gap-4 py-4">
                 {Array.from({ length: totalPages }, (_, i) => i + 1).map((pageNum) => (
                     <button

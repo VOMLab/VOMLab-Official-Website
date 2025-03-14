@@ -36,7 +36,7 @@ const Project = () => {
     ? filteredProjects.slice((currentPage - 1) * projectsPerPage, currentPage * projectsPerPage)
     : filteredProjects;
 
-  return <main className="flex flex-col min-h-screen">
+  return <main className="flex flex-col min-h-screen h-screen overflow-y-auto">
         <div className="sm:flex sm:items-center">
             <Header />
             <Navigation />
@@ -45,17 +45,18 @@ const Project = () => {
           setCurrentCategory(category);
           setCurrentPage(1);
         }} />
-    <section className={`
-      // Desktop
-      sm:grid sm:grid-cols-4 gap-x-16 gap-y-5 sm:m-10 
+      <div className="flex-1 overflow-y-auto">
+        <section className={` // Desktop
+          sm:grid sm:grid-cols-4 gap-x-16 gap-y-5 sm:m-10 
 
-      // Mobile
-      flex-1 mt-10
-    `}>
-        {displayProjects.map((project) => (
-            <EachProject key={project.id} {...project} />
-        ))}
-    </section>
+          // Mobile
+          flex-1 mt-10
+        `}>
+            {displayProjects.map((project) => (
+                <EachProject key={project.id} {...project} />
+            ))}
+        </section>
+        </div>
     <ProjectFooter
       currentPage={currentPage}
       setCurrentPage={setCurrentPage}

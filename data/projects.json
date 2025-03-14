@@ -120,7 +120,7 @@
             "Category" : "실감형 미디어아트, 인터랙티브 프로젝션 맵핑",
             "Work": "콘텐츠 기획 및 제작, VFX, 인터랙션 기술개발, 미디어서버 구축"
         },
-        "image": "",
+        "image": "/images/projects/2023/노형/",
         "date": "2021 - 2023",
         "categoryNavigation": "전시, 미술관",
         "mainVideoLink": "https://www.youtube.com/embed/JS2GxbhGpGw?autoplay=1&mute=1",
@@ -134,7 +134,7 @@
             "-올해의 신작",
             "'Recall; 불러오기'"
         ],
-        "description": "'물건이 아닌 추억을 파는, 이상한 수퍼마켓' 누구에게나 친숙하고 일상적으로 느껴지는 공간인 수퍼마켓에 색다르고 환상적인 공간으로의 변화를 주었다. 노형수퍼마켙 시즌2는 '물건이 아닌 추억과 경험을 파는 곳’ 이라는 콘셉트를 통해 일상적 공간에서 비일상적 상상력을 펼칠 수 있는 공간으로 변모하였다. 관람객은 메인홀에서 일곱가지 실감형 미디어아트와 그에 맞게 구성된 인터랙션을 콘텐츠를 즐긴 후, 백스테이지에서 자연 콘셉트로 구성된 인터랙티브 아트를 체험할 수 있다.",
+        "description": "무엇이든 일어날 수 있는 무대 위에서, 가상과 현실 사이에서 무용수의 몸짓을 시공간적으로 확장한다. 불완전하고 불분명한, 그러나 강렬한 기억과 감정이 마주하는 순간에 관객이 함께 호흡할 수 있도록 다양한 영상 기법을 통해 감각적인 확대로 나아간다. 프로젝션 맵핑과 라이브 피드, 실시간 미디어 제어 시스템을 활용한 무용 공연으로 시각적 확장을 통해 무대 공간을 더욱 풍부하고 몰입감 있게 연출했다. 실시간 미디어 제어를 통해 무용수의 움직임과 영상이 동기화되면서 공연의 역동성과 감각적 효과가 극대화된다.",
          "details": {
             "projectYear": "2023",
             "client": "화이트큐브프로젝트",
@@ -142,7 +142,7 @@
             "Category" : "공연, 인터랙티브 프로젝션맵핑",
             "Work": "영상 연출 및 디자인, 인터랙션 기술개발, 실시간제어 시스템 개발"
         },
-        "image": "",
+        "image": "/images/projects/2023/recall/",
         "date": "2023.01",
         "categoryNavigation": "공연",
         "mainVideoLink": "",
@@ -155,7 +155,7 @@
             "한국문화유산협회",
             "'호남권역 예담고 상설전시'"
         ],
-        "description": "한국문화유산협회 호남권역 예담고 상설전시",
+        "description": "본래의 완전한 모습을 잃고 자리를 찾지 못했던, 그러나 오랜 시간을 살아남아 과거와  현재를 잇는 역사의 조각들인 비귀속 유물이 새로 자리를 잡는 공간과 전시의 의미를 살리고자 하였다. 잊힌 공간이었던 신리 터널 속 비귀속 유물과의 만남을 통해 관람객이 그 가치를 재발견할 수 있기를 바란다. 비귀속 유물의 발굴 모습을 활용한 그래픽과 애니메이션, 일러스트레이션 작업을 바탕으로 프로젝션 맵핑 및 모니터 송출 방식을 통해 관객에게 결과물을 선보인다.",
          "details": {
             "projectYear": "2023",
             "client": "국가유산청, 한국문화유산협회 유물보존관리사업단",
@@ -163,7 +163,7 @@
             "Category" : "전시, 프로젝션 맵핑",
             "Work": "영상 기획 및 연출, 제작"
         },
-        "image":"",
+        "image":"/images/projects/2023/honam/",
         "date": "2023.02",
         "categoryNavigation": "전시, 박물관",
         "mainVideoLink": "https://www.youtube.com/embed/hkACAYRjfIc?autoplay=1&mute=1",
@@ -185,7 +185,7 @@
             "Category" : "전시, 프로젝션 맵핑",
             "Work": "영상 기획 및 연출, 제작"
         },
-        "image":"",
+        "image":"/images/projects/2023/청계천/",
         "date": "2023.04",
         "categoryNavigation": "전시, 박물관",
         "mainVideoLink": "https://www.youtube.com/embed/hkACAYRjfIc?autoplay=1&mute=1",
@@ -206,7 +206,7 @@
             "Category" : "전시, 인터랙티브 프로젝션맵핑",
             "Work": "영상 기획 및 연출, 제작, 인터랙션 기술개발, UXUI"
         },
-        "image":"",
+        "image":"/images/projects/2023/전주/",
         "date": "2023.08",
         "categoryNavigation": "전시, 박물관",
         "mainVideoLink": "https://www.youtube.com/embed/2E8tSpJ_NYw?autoplay=1&mute=1",
@@ -226,7 +226,7 @@
             "Category" : "전시, 인터랙티브 프로젝션맵핑",
             "Work": "영상 기획 및 연출, 제작, 인터랙션 기술개발, UXUI"
         },
-        "image":"",
+        "image":"/images/projects/2023/돈덕전/",
         "date": "2023.09",
         "categoryNavigation": "전시, 박물관",
         "mainVideoLink": "https://www.youtube.com/embed/4Lg1JqAJGSY?autoplay=1&mute=1",
@@ -246,7 +246,7 @@
             "Category" : "공연, 인터랙티브 프로젝션맵핑",
             "Work": "조명디자인, 영상 연출 및 디자인, 인터랙션 기술개발, 실시간제어 시스템 개발"
         },
-        "image":"",
+        "image":"/images/projects/2023/안티고네/",
         "date": "2023.10",
         "categoryNavigation": "공연",
         "mainVideoLink": "https://www.youtube.com/embed/hkACAYRjfIc?autoplay=1&mute=1",
@@ -268,7 +268,7 @@
             "Category" : "교육, 공연, 프로그래밍, 인터랙티브 프로젝션맵핑",
             "Work": "교육프로그램 기획 및 진행, 영상 연출 및 디자인, 실시간제어 시스템 개발"
         },
-        "image":"",
+        "image":"/images/projects/2023/link/",
         "date": "2023.10",
         "categoryNavigation": "공연",
         "videoUrl": "/videos/2023/2023-link.webm"
@@ -289,7 +289,7 @@
             "Category" : "전시, 프로젝션 맵핑, 프로그래밍",
             "Work": "영상 기획 및 연출, 제작, 인터랙션 기술개발, UXUI"
         },
-        "image":"",
+        "image":"/images/projects/2023/화성박/",
         "date": "2023.11",
         "categoryNavigation": "전시, 박물관",
         "mainVideoLink": "https://www.youtube.com/embed/2iCHm0KXttQ?autoplay=1&mute=1",
@@ -311,7 +311,7 @@
             "Category" : "전시, 인터랙티브 프로젝션맵핑",
             "Work": "영상 기획 및 연출, 제작, 인터랙션 기술개발, UXUI"
         },
-        "image":"",
+        "image":"/images/projects/2023/대구박/",
         "date": "2023.12",
         "categoryNavigation": "전시, 박물관",
         "mainVideoLink": "https://www.youtube.com/embed/-jPWsH4IUgY?autoplay=1&mute=1",
