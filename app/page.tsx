@@ -8,6 +8,9 @@ export default function Home() {
   const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
+    // 페이지가 마운트 될 때 로딩 상태 true로 초기화
+    setIsLoading(true);
+
     const playVideo = async () => {
       try {
         if (videoRef.current) {
@@ -23,8 +26,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen flex flex-col relative">
-      <div className='absolute w-full h-[90%] inset-0 bg-black transition-opacity duration-700 -z-10 overflow-hidden' style={{opacity: isLoading ? 1 : 0 }}>
-        <video 
+      <video 
           ref={videoRef}
           autoPlay 
           muted 
@@ -32,11 +34,10 @@ export default function Home() {
           preload="auto"
           playsInline 
           onLoadedData={() => setIsLoading(false)} 
-          className={`absolute inset-0 w-[120%] h-full transition-opacity duration-700 -z-10 ${isLoading ? 0 : 1}`}
-        >
+          className={`fixed top-0 left-0 w-full h-[90%] object-cover overflow-hidden transition-opacity duration-700 -z-10 ${isLoading ? 'opacity-0' : 'opacity-100'}`}
+      >
           <source src="/videos/video_main.webm" type="video/webm" />
         </video>
-      </div>
       <Header/>
       <nav className={`
       // Desktop
