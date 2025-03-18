@@ -1,16 +1,23 @@
 "use client"
 
 import { ProjectProps } from "@/lib/utils/projects";
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 
-const EachProject = ({description, id, thumbnailNames, videoUrl}: ProjectProps) => {
+const EachProject = ({description, id, thumbnailNames, videoUrl, image}: ProjectProps) => {
     const [isOpen, setIsOpen] = useState(false);
+    const [isMobile, setIsMobile] = useState(false);
     const videoRef = useRef<HTMLVideoElement>(null);
+    const thumbNailImage = `${image}/img1.webp`;
+
+    useEffect(() => {
+        // 모바일 기기 감지
+        setIsMobile(/iPhone|iPad|iPod|Android/i.test(navigator.userAgent));
+    }, []);
 
     const handleMouseEnter = async () => {
         try {
-            if (videoRef.current) {
+            if (videoRef.current && !isMobile) {
                 await videoRef.current.play();
             }
         } catch (error) {
@@ -19,7 +26,7 @@ const EachProject = ({description, id, thumbnailNames, videoUrl}: ProjectProps) 
     };
 
     const handleMouseLeave = () => {
-        if (videoRef.current) {
+        if (videoRef.current && !isMobile) {
             videoRef.current.pause();
             videoRef.current.currentTime = 0;
         }
@@ -31,17 +38,26 @@ const EachProject = ({description, id, thumbnailNames, videoUrl}: ProjectProps) 
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
         >
-            <video
-                ref={videoRef}
-                className="w-full h-full object-cover"
-                loop
-                muted
-                playsInline
-                preload="auto"
-            >
-                <source src={videoUrl} type="video/webm" />
-                Your browser does not support the video tag.
-            </video>
+        {isMobile ? (
+                <img 
+                    src={thumbNailImage} 
+                    alt={thumbnailNames.join(' ')} 
+                    className="w-full h-full object-cover"
+                />
+            ) : (
+                <video
+                    ref={videoRef}
+                    className="w-full h-full object-cover"
+                    loop
+                    muted
+                    playsInline
+                    preload="auto"
+                >
+                    <source src={videoUrl} type="video/webm" />
+                    Your browser does not support the video tag.
+                </video>
+            )}
+        
         </div>
         {/* Desktop */}
         <div className={`hidden sm:flex sm:h-20 sm:flex-col`}>
