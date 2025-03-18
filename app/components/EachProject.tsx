@@ -56,7 +56,7 @@ const EachProject = ({description, id, thumbnailNames, videoUrl}: ProjectProps) 
 
         {/* Mobile */}
         <div className={`${isOpen ? 'h-auto' : 'h-24'} ml-3 mb-5 mr-3 flex flex-col sm:hidden`}>
-            <div className={`${isOpen ? 'mt-4 mb-5' : 'h-full flex flex-col justify-center'}`}>
+            <div className={`${isOpen ? 'mt-3 mb-5' : 'h-full flex flex-col justify-center'}`}>
                 <h2 className='text-xl cursor-pointer transition-colors' onClick={() => setIsOpen(!isOpen)}>
                     {thumbnailNames.map((thumbnailName) => (
                         <p key={thumbnailName}>{thumbnailName}</p>

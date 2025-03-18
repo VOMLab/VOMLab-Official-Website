@@ -34,7 +34,7 @@ export default function Home() {
           preload="auto"
           playsInline 
           onLoadedData={() => setIsLoading(false)} 
-          className={`fixed top-0 left-0 w-full h-[90%] object-cover overflow-hidden transition-opacity duration-700 -z-10 ${isLoading ? 'opacity-0' : 'opacity-100'}`}
+          className={`fixed top-0 left-0 w-full h-full sm:h-[90%] object-cover overflow-hidden transition-opacity duration-700 -z-10 ${isLoading ? 'opacity-0' : 'opacity-100'}`}
       >
           <source src="/videos/video_main.webm" type="video/webm" />
         </video>
