@@ -15,6 +15,7 @@ export interface ProjectProps {
         Category: string;
         Work: string;
     }
+    imageCount: number;
     mainVideoLink?: string;
     videoUrl?: string; 
 }

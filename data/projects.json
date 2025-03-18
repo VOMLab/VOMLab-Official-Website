@@ -16,6 +16,7 @@
             "Work": "영상 기획 및 연출, 제작, 인터랙션 기술개발, 미디어서버 구축"
         },
         "image": "/images/projects/2024/대한역박/",
+        "imageCount": 6,
         "date": "2024.02",
         "categoryNavigation": "전시, 박물관",
         "mainVideoLink": "https://www.youtube.com/embed/pdZAHatom6Q?autoplay=1&mute=1",
@@ -31,6 +32,7 @@
         ],
         "description": "‘청계천을 산책해요’ 청계천의 시작점인 청계광장부터 하류의 신답철교까지, 길게 이어진 청계천의 생태와 구간별 특징을 인터랙티브 콘텐츠로 제작하였다. 캐릭터와 함께 청계천을 산책하며 터치 인터랙션으로 자연물과 만나게끔 하는 콘텐츠는 관람객에게 주변의 자연을 더욱 친밀하게 느끼게끔 한다.",
         "image": "/images/projects/2024/청계박/",
+        "imageCount": 9,
         "details": {
             "projectYear": "2024",
             "client": "서울역사박물관, 청계천박물관",
@@ -59,6 +61,7 @@
             "Work": "영상 기획 및 연출, 제작, 촬영 및 편집, 인터랙션 기술개발"
         },
         "image": "/images/projects/2024/고궁박/",
+        "imageCount": 6,
         "date": "2024.05",
         "categoryNavigation": "전시, 박물관",
         "mainVideoLink": "https://www.youtube.com/embed/KhLsKFKtySA?autoplay=1&mute=1",
@@ -80,6 +83,7 @@
             "Work": "영상 기획 및 연출, 제작, 촬영 및 편집, 인터랙션 기술 개발, UXUI"
         },
         "image": "/images/projects/2024/요즘커피/",
+        "imageCount": 12,
         "date": "2024.08",
         "categoryNavigation": "전시, 박물관",
         "mainVideoLink": "https://www.youtube.com/embed/_zO0eNZMM1Q?autoplay=1&mute=1",
@@ -101,6 +105,7 @@
             "Work": "영상 기획 및 연출, 제작, 촬영 및 편집, 인터랙션 기술 개발, UXUI"
         },
         "image": "/images/projects/2024/간송/",
+        "imageCount": 9,
         "date": "2024.08",
         "categoryNavigation": "전시, 미술관",
         "mainVideoLink": "https://www.youtube.com/embed/ImLdgx33H5E?autoplay=1&mute=1",
@@ -121,6 +126,7 @@
             "Work": "콘텐츠 기획 및 제작, VFX, 인터랙션 기술개발, 미디어서버 구축"
         },
         "image": "/images/projects/2023/노형/",
+        "imageCount": 12,
         "date": "2021 - 2023",
         "categoryNavigation": "전시, 미술관",
         "mainVideoLink": "https://www.youtube.com/embed/JS2GxbhGpGw?autoplay=1&mute=1",
@@ -143,9 +149,10 @@
             "Work": "영상 연출 및 디자인, 인터랙션 기술개발, 실시간제어 시스템 개발"
         },
         "image": "/images/projects/2023/recall/",
+        "imageCount": 6,
         "date": "2023.01",
         "categoryNavigation": "공연",
-        "mainVideoLink": "",
+        "mainVideoLink": "https://www.youtube.com/embed/EkR6_2ZBvMg?autoplay=1&mute=1",
         "videoUrl": "/videos/2023/2023-recall.webm"
     },
     {
@@ -164,6 +171,7 @@
             "Work": "영상 기획 및 연출, 제작"
         },
         "image":"/images/projects/2023/honam/",
+        "imageCount": 6,
         "date": "2023.02",
         "categoryNavigation": "전시, 박물관",
         "mainVideoLink": "https://www.youtube.com/embed/hkACAYRjfIc?autoplay=1&mute=1",
@@ -186,6 +194,7 @@
             "Work": "영상 기획 및 연출, 제작"
         },
         "image":"/images/projects/2023/청계천/",
+        "imageCount": 6,
         "date": "2023.04",
         "categoryNavigation": "전시, 박물관",
         "mainVideoLink": "https://www.youtube.com/embed/hkACAYRjfIc?autoplay=1&mute=1",
@@ -207,6 +216,7 @@
             "Work": "영상 기획 및 연출, 제작, 인터랙션 기술개발, UXUI"
         },
         "image":"/images/projects/2023/전주/",
+        "imageCount": 9,
         "date": "2023.08",
         "categoryNavigation": "전시, 박물관",
         "mainVideoLink": "https://www.youtube.com/embed/2E8tSpJ_NYw?autoplay=1&mute=1",
@@ -227,6 +237,7 @@
             "Work": "영상 기획 및 연출, 제작, 인터랙션 기술개발, UXUI"
         },
         "image":"/images/projects/2023/돈덕전/",
+        "imageCount": 9,
         "date": "2023.09",
         "categoryNavigation": "전시, 박물관",
         "mainVideoLink": "https://www.youtube.com/embed/4Lg1JqAJGSY?autoplay=1&mute=1",
@@ -247,9 +258,10 @@
             "Work": "조명디자인, 영상 연출 및 디자인, 인터랙션 기술개발, 실시간제어 시스템 개발"
         },
         "image":"/images/projects/2023/안티고네/",
+        "imageCount": 6,
         "date": "2023.10",
         "categoryNavigation": "공연",
-        "mainVideoLink": "https://www.youtube.com/embed/hkACAYRjfIc?autoplay=1&mute=1",
+        "mainVideoLink": "https://www.youtube.com/embed/a-ppdsCBBck?autoplay=1&mute=1",
         "videoUrl": "/videos/2023/2023-antigone.webm"
     },
     {
@@ -269,6 +281,7 @@
             "Work": "교육프로그램 기획 및 진행, 영상 연출 및 디자인, 실시간제어 시스템 개발"
         },
         "image":"/images/projects/2023/link/",
+        "imageCount": 6,
         "date": "2023.10",
         "categoryNavigation": "공연",
         "videoUrl": "/videos/2023/2023-link.webm"
@@ -290,6 +303,7 @@
             "Work": "영상 기획 및 연출, 제작, 인터랙션 기술개발, UXUI"
         },
         "image":"/images/projects/2023/화성박/",
+        "imageCount": 9,
         "date": "2023.11",
         "categoryNavigation": "전시, 박물관",
         "mainVideoLink": "https://www.youtube.com/embed/2iCHm0KXttQ?autoplay=1&mute=1",
@@ -312,6 +326,7 @@
             "Work": "영상 기획 및 연출, 제작, 인터랙션 기술개발, UXUI"
         },
         "image":"/images/projects/2023/대구박/",
+        "imageCount": 6,
         "date": "2023.12",
         "categoryNavigation": "전시, 박물관",
         "mainVideoLink": "https://www.youtube.com/embed/-jPWsH4IUgY?autoplay=1&mute=1",

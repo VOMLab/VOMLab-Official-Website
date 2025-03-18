@@ -22,8 +22,8 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="min-h-screen flex flex-col">
-      <div className='absolute w-full h-full inset-0 bg-black transition-opacity duration-700 -z-10' style={{opacity: isLoading ? 'opacity-100' : 'opacity-0'}}>
+    <main className="min-h-screen flex flex-col relative">
+      <div className='absolute w-full h-[90%] inset-0 bg-black transition-opacity duration-700 -z-10 overflow-hidden' style={{opacity: isLoading ? 'opacity-100' : 'opacity-0'}}>
         <video 
           ref={videoRef}
           autoPlay 
@@ -32,7 +32,7 @@ export default function Home() {
           preload="auto"
           playsInline 
           onLoadedData={() => setIsLoading(false)} 
-          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 -z-10 ${isLoading ? 'opacity-0' : 'opacity-100'}`}
+          className={`absolute inset-0 w-[120%] h-full transition-opacity duration-700 -z-10 ${isLoading ? 'opacity-0' : 'opacity-100'}`}
         >
           <source src="/videos/video_main.webm" type="video/webm" />
         </video>
@@ -40,7 +40,7 @@ export default function Home() {
       <Header/>
       <nav className={`
       // Desktop
-      sm:text-2xl sm:flex sm:flex-1 sm:flex-col sm:m-3
+      sm:text-2xl sm:flex sm:flex-1 sm:flex-col sm:m-3 sm:justify-center
 
       // Mobile
       flex flex-1 flex-col text-3xl text-black
