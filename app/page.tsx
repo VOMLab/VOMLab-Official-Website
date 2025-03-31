@@ -34,14 +34,14 @@ export default function Home() {
           preload="auto"
           playsInline 
           onLoadedData={() => setIsLoading(false)} 
-          className={`fixed top-0 left-0 w-full h-full sm:h-[90%] object-cover overflow-hidden transition-opacity duration-700 -z-10 ${isLoading ? 'opacity-0' : 'opacity-100'}`}
+          className={`fixed top-0 left-0 w-full h-full sm:h-[90%] object-cover overflow-hidden transition-opacity duration-700 -z-10 sm:scale-150 sm:-translate-y-1/4 ${isLoading ? 'opacity-0' : 'opacity-100'}`}
       >
           <source src="/videos/video_main.webm" type="video/webm" />
         </video>
       <Header/>
       <nav className={`
       // Desktop
-      sm:text-2xl sm:flex sm:flex-1 sm:flex-col sm:m-3 sm:justify-center
+      sm:text-2xl sm:flex sm:flex-1 sm:flex-col sm:m-3 sm:justify-center sm:relative sm:z-10
 
       // Mobile
       flex flex-1 flex-col text-3xl text-black

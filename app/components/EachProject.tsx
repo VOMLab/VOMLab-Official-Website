@@ -7,6 +7,7 @@ import Link from "next/link";
 const EachProject = ({description, id, thumbnailNames, videoUrl, image}: ProjectProps) => {
     const [isOpen, setIsOpen] = useState(false);
     const [isMobile, setIsMobile] = useState(false);
+    const [isVideoLoaded, setIsVideoLoaded] = useState(false);
     const videoRef = useRef<HTMLVideoElement>(null);
     const thumbNailImage = `${image}/img1.webp`;
 
@@ -17,7 +18,8 @@ const EachProject = ({description, id, thumbnailNames, videoUrl, image}: Project
 
     const handleMouseEnter = async () => {
         try {
-            if (videoRef.current && !isMobile) {
+            if (videoRef.current && !isMobile && !isVideoLoaded)  {
+                videoRef.current.currentTime = 0;
                 await videoRef.current.play();
             }
         } catch (error) {
@@ -52,6 +54,7 @@ const EachProject = ({description, id, thumbnailNames, videoUrl, image}: Project
                     muted
                     playsInline
                     preload="auto"
+                    onLoadedData={() => setIsVideoLoaded(true)}
                 >
                     <source src={videoUrl} type="video/webm" />
                     Your browser does not support the video tag.
@@ -71,9 +74,9 @@ const EachProject = ({description, id, thumbnailNames, videoUrl, image}: Project
         </div>
 
         {/* Mobile */}
-        <div className={`${isOpen ? 'h-auto' : 'h-24'} ml-3 mb-5 mr-3 flex flex-col sm:hidden`}>
-            <div className={`${isOpen ? 'mt-3 mb-5' : 'h-full flex flex-col justify-center'}`}>
-                <h2 className='text-xl cursor-pointer transition-colors' onClick={() => setIsOpen(!isOpen)}>
+        <div className={`${isOpen ? 'h-auto' : 'h-24'} ml-3 mb-2 mt-2 mr-3 flex flex-col sm:hidden`}>
+            <div className={`${isOpen ? 'mt-2 mb-2' : 'h-full flex flex-col justify-center'}`}>
+                <h2 className='text-md cursor-pointer transition-colors' onClick={() => setIsOpen(!isOpen)}>
                     {thumbnailNames.map((thumbnailName) => (
                         <p key={thumbnailName}>{thumbnailName}</p>
                     ))}
