@@ -16,19 +16,20 @@ const EachProject = ({description, id, thumbnailNames, videoUrl, image}: Project
         setIsMobile(/iPhone|iPad|iPod|Android/i.test(navigator.userAgent));
     }, []);
 
-    const handleMouseEnter = async () => {
-        try {
-            if (videoRef.current && !isMobile && !isVideoLoaded)  {
-                videoRef.current.currentTime = 0;
-                await videoRef.current.play();
-            }
-        } catch (error) {
-            console.log(error);
+    const handleVideoLoaded = () => {
+        setIsVideoLoaded(true);
+    }
+
+    const handleMouseEnter = () => {
+        if(videoRef.current && !isMobile)
+        {
+            videoRef.current.play();
         }
     };
 
     const handleMouseLeave = () => {
-        if (videoRef.current && !isMobile) {
+        if(videoRef.current && !isMobile)
+        {
             videoRef.current.pause();
             videoRef.current.currentTime = 0;
         }
@@ -54,7 +55,7 @@ const EachProject = ({description, id, thumbnailNames, videoUrl, image}: Project
                     muted
                     playsInline
                     preload="auto"
-                    onLoadedData={() => setIsVideoLoaded(true)}
+                    onLoadedData={handleVideoLoaded}
                 >
                     <source src={videoUrl} type="video/webm" />
                     Your browser does not support the video tag.
