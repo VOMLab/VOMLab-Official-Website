@@ -20,15 +20,18 @@ const EachProject = ({description, id, thumbnailNames, videoUrl, image}: Project
         setIsVideoLoaded(true);
     }
 
-    const handleMouseEnter = () => {
-        if(videoRef.current && !isMobile)
-        {
-            videoRef.current.play();
+    const handleMouseEnter = async () => {
+        if(videoRef.current && !isMobile && isVideoLoaded) {
+            try {
+                videoRef.current.play();
+            } catch (error) {
+                console.log(error);
+            }
         }
     };
 
     const handleMouseLeave = () => {
-        if(videoRef.current && !isMobile)
+        if(videoRef.current && !isMobile && isVideoLoaded)
         {
             videoRef.current.pause();
             videoRef.current.currentTime = 0;
